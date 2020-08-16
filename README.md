@@ -1,4 +1,4 @@
-# SF_AlmacigosSAC
+# SF_Almacigos_SAC
 Plataforma para la empresa SF Almacigos SAC Chincha, Ica, Perú
 
 La iniciación de esta plataforma nació con el interés de entrar a la AGRICULTURA 4.0.
