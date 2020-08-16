@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    background: url(../img/almacigos.jpg) no-repeat center top;
+    height: 100vh;
+    background-size: cover;
+    font-family: sans-serif;
+    
+}
+
+.login_box{
+    width: 320px;
+    height: 400px;
+    background-color: #000;
+    filter: opacity(.9);
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 10px 10px 10px 10px;
+    padding: 70px 30px;        
+}
+
+.login_box .login_box-logo{
+    
+    background: #fff;
+    width: 310px;
+    padding: 5px;
+    top: -3px;
+    left: 0px;
+    position: absolute;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 5px solid green;
+}
+
+/*
+.login_box h1{
+    margin: 0;
+    padding: 0 0 25px;
+    text-align: center;
+    font-size: 30px;
+}
+*/
+
+.login_box .login_box-form{
+    margin-top: 30px;
+}
+
+.login_box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login_box input{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.login_box input[type="text"],
+.login_box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;    
+}
+
+.login_box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: green;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.login_box input:hover[type="submit"] {
+    color: #000;
+}
+
+.login_box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 30px;
+    color:darkgray;
+}
+
+.login_box a:hover {
+    color: #fff;
+}
